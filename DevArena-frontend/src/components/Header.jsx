@@ -35,14 +35,13 @@ function Header() {
             </div>
             <div className={`header-links ${showSidebar ? 'show' : ''}`} >
                 <Link to="/" style={{ textDecoration: "none" }} ><h3>Home</h3></Link>
+                {
+                    token && <Link to="/admin-dashboard" style={{ textDecoration: "none" }}><h3>Dashboard</h3></Link>
+                }
                 <Link to="/courses" style={{ textDecoration: "none" }} ><h3>Courses</h3></Link>
                 <Link to="/aboutUs" style={{ textDecoration: "none" }} ><h3>About Us</h3></Link>
                 <Link to="/registration" style={{ textDecoration: "none" }} ><h3>Registration</h3></Link>
                 <Link to="/contact" style={{ textDecoration: "none" }}><h3>Contact</h3></Link>
-                {
-                    token && <Link to="/admin-dashboard" style={{ textDecoration: "none" }}><h3>Dashboard</h3></Link>
-                }
-
                 {
                     token ?
                         <h3 onClick={handleLogout} >Logout</h3>
