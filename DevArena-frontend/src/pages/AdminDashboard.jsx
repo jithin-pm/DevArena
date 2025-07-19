@@ -21,8 +21,8 @@ function AdminDashboard() {
         try {
             const result = await deleteRegisteredStudentsApi(studentId);
             if (result.status === 200) {
-                alert("Student deleted successfully");
                 fetchRegisteredStudents();
+                alert("Student deleted successfully");  
             } else {
                 alert("Deletion failed. Please try again.");
             }
