@@ -1,0 +1,202 @@
+.aboutUs-main {
+    padding-top: 110px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutUs-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUs-text h1 {
+    color: #283366;
+    font-size: 40px;
+}
+
+.about-contents {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-contents h1 {
+    font-size: 40px;
+    color: #283366;
+}
+
+.name-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #6200be;
+}
+
+.name-logo i {
+    font-weight: 800;
+    font-size: 90px;
+}
+
+.name-logo h1 {
+    font-size: 70px;
+}
+
+.name-logo :hover {
+    color: aquamarine;
+}
+
+.name-logo-text p {
+    text-align: left;
+    color: #405580;
+}
+
+.about-contents-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.our-mission-contents {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.our-mission-cards {
+    width: 310px;
+    min-height: 220px;
+    background-color: #40558046;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.our-mission-cards i {
+    font-size: 30px;
+
+}
+
+.our-team-contents {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-team-card {
+    display: flex;
+    min-height: 300px;
+    max-width: 1350px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px 20px 60px;
+    background-color: #40558046;
+    gap: 60px;
+    border-radius: 10px;
+}
+
+.our-team-card i {
+    font-size: 60px;
+}
+
+.our-team-card-text {
+    text-align: start;
+}
+
+.our-goals-contents {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.our-goals-cards {
+    width: 310px;
+    min-height: 220px;
+    background-color: #40558046;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.our-goals-cards i {
+    font-size: 30px;
+
+}
+
+@media (max-width:768px) {
+
+    .about-contents-intro {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .aboutUs-text h1 {
+        font-size: 35px;
+    }
+
+    .about-contents {
+        gap: 40px;
+    }
+
+    .about-contents h1 {
+        font-size: 35px;
+    }
+
+    .name-logo-text p {
+        text-align: center;
+    }
+
+    .name-logo i {
+        font-size: 30px;
+    }
+
+    .name-logo h1 {
+        font-size: 30px;
+    }
+
+    .our-team-card {
+        flex-direction: column;
+        padding: 50px 60px 50px 60px;
+        gap: 30px;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+
+    .about-contents {
+        padding-top: 60px;
+    }
+
+    .name-logo i {
+        font-size: 50px;
+    }
+
+    .name-logo h1 {
+        font-size: 50px;
+    }
+}

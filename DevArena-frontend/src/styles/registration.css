@@ -1,0 +1,81 @@
+.registration-main {
+  padding: 110px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.registration-text h1 {
+  color: #283366;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.registration-section {
+  background-color: #e4e9ff;
+  border-radius: 30px;
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+margin-top: 30px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.registration-form-inputs {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  color: rgb(62, 62, 62);
+  box-sizing: border-box;
+}
+
+textarea.registration-form-inputs {
+  border-radius: 20px;
+  resize: vertical;
+  height: 80px;
+}
+
+.register-btn {
+  background-color: #6200be;
+  border-radius: 30px;
+  padding: 12px 70px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #450094;
+}
+
+/* Media Query for smaller devices */
+@media screen and (max-width: 600px) {
+  .registration-text h1 {
+    font-size: 28px;
+  }
+
+  .registration-form-inputs {
+    max-width: 100%;
+  }
+
+  .register-btn {
+    padding: 12px 30px;
+  }
+}
